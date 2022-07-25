@@ -16,7 +16,7 @@ const NavMobile = ({ setNavMobile }) => {
           <Link to="/" onClick={() => setNavMobile(false)}>Home</Link>
         </li>
         <li className='text-lg'>
-          <Link to="/blog" onClick={() => setNavMobile(false)}>Blog</Link>
+          <Link to="/resources" onClick={() => setNavMobile(false)}>Resources</Link>
         </li>
       </ul>
 
